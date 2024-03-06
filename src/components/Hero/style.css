@@ -1,5 +1,5 @@
 .hero {
-    height: 100px;
+    height: 550px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -37,5 +37,5 @@
     font-size: 40px;
     padding-top: 1px;
     margin-top: 0;
-    color: #706076;
+    color: #ebc4f9;
 }

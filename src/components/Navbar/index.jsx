@@ -25,13 +25,13 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/contact"
                 end
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                About
+                Conctact
               </NavLink>
             </li>
             <li className="nav-item">
