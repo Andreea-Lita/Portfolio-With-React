@@ -7,13 +7,17 @@ import EarthPlanet from '../Images/shot.jpg';
 function Contact() {
   return (
     <div style={{ marginTop: 30, marginLeft: 200}}>
-        <h1> Andreea (Lita) Malaiasi</h1>
-        <h2> Developing is also learnig for makeing ideeas a reality; I hope life will resist and continue to enjoy us!</h2>
-        <a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a>
+      
+        <h1></h1>
+        <h2></h2>
+        <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a></span>
+        <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita">GitHub</a></span>
+        {/* <a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a>
         <br />
-        <a href="https://github.com/Andreea-Lita">GitHub</a>
+        <a href="https://github.com/Andreea-Lita">GitHub</a>*/}
         <br />
-        <a href="https://mail.google.com/">myemail</a>
+        <a href="https://mail.google.com/">myemail</a> 
+      
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
