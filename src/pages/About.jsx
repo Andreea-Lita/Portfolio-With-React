@@ -15,22 +15,18 @@ function About() {
         <h2> Developing is also learnig for makeing ideeas a reality; I hope life will resist and continue to enjoy us!</h2>
         </Col>
         <Col size="md-4">
-        <img src={Avatar} alt="close avatar" style= {{ width: 400, marginTop: 128 }}/>
+        <img src={Avatar} alt="close avatar" style= {{ width: 212, marginTop: 158 }}/>
         </Col>
+        <Container style={{ marginTop: 30 }}>
+        <Row>
+          <Col size="md-12">
+            <h3>Skills practicing: HTML, CSS, JavaScript(Bootstrap, NodeJS, JQuery, React)</h3>
+          </Col>
+        </Row>
+        </Container>
         </Row>
       </Hero>``
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-            <h2>Skills practicing: HTML, CSS, JavaScript(Bootstrap, NodeJS, JQuery, React)</h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-         
-          </Col>
-        </Row>
-      </Container>
+  
     </div>
   );
 }
