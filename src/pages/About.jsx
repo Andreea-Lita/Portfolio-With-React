@@ -4,7 +4,8 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 import EarthPlanet from '../components/Images/shot.jpg';
-import Avatar from '../components/Images/close_avatar.jpg';
+import Avatar from '../components/Images/Andreea.jpg';
+
 function About() {
   return (
     <div>
@@ -15,7 +16,7 @@ function About() {
         <h2> Developing is also learnig for makeing ideeas a reality; I hope life will resist and continue to enjoy us!</h2>
         </Col>
         <Col size="md-4">
-        <img src={Avatar} alt="close avatar" style= {{ width: 212, marginTop: 158 }}/>
+        <img src={Avatar} alt="Lita Andreea Malaiasi" style= {{ width: 212, marginTop: 158 }}/>
         </Col>
         <Container style={{ marginTop: 30 }}>
         <Row>
@@ -23,6 +24,7 @@ function About() {
             <h3>Skills practicing: HTML, CSS, JavaScript(Bootstrap, NodeJS, JQuery, React)</h3>
           </Col>
         </Row>
+
         </Container>
         </Row>
       </Hero>``
