@@ -4,7 +4,7 @@ import Container from '../Container';
 import Row from '../Row';
 import Col from '../Col';
 import EarthPlanet from '../Images/shot.jpg';
-import Avatar from '../Images/Andreea.jpg'
+import Avatar from '../Images/2151100212.jpg'
 function Contact() {
   return (
     <div style={{ marginTop: 30, marginLeft: 200}}>
@@ -18,7 +18,8 @@ function Contact() {
         <a href="https://github.com/Andreea-Lita">GitHub</a>*/}
         <br />
         <a href="https://mail.google.com/">myemail</a> 
-        <h4>Telefon UK: +1 234 567 890</h4>
+        <h4>Tel: </h4>
+        <h2>I am a person who likes coding, and mostly coding becoming eficcient for real life!</h2>
         <Col size="md-4">
         <img src={Avatar} alt="close avatar" style= {{ width: 212, marginTop: 158 }}/>
         </Col>
@@ -26,7 +27,7 @@ function Contact() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h2>I am a person who likes coding, and mostly coding becoming eficcient for real life!</h2>
+            <h2> I recently started to develop websites projects!</h2>
           </Col>
         </Row>
         <Row>

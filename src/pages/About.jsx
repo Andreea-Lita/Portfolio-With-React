@@ -13,7 +13,7 @@ function About() {
         <Row>
           <Col size="md-6">
         <h1> Andreea (Lita) Malaiasi</h1>
-        <h2> Developing is also learnig for makeing ideeas a reality; I hope life will resist and continue to enjoy us!</h2>
+        <h2> Developing is also learnig for makeing ideeas a reality</h2>
         </Col>
         <Col size="md-4">
         <img src={Avatar} alt="Lita Andreea Malaiasi" style= {{ width: 212, marginTop: 158 }}/>
