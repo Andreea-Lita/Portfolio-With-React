@@ -61,7 +61,17 @@ function Navbar() {
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Project Gallery
+                Projects Gallery
+              </NavLink>
+              </li> 
+            <li className="nav-item">
+              <NavLink
+                to="/skills"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Skills
               </NavLink>
             </li> 
           </ul>

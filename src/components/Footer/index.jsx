@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Andreea's portfolio</span>
+      <span>Andreea's portfolio with React</span>
       <div className="contacts-container">
       <a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a>
         <br />
@@ -13,7 +13,7 @@ function Footer() {
         <a href="https://mail.google.com/">myemail</a>
         <br />
         </div>
-        <h4>Telefon UK: +1 234 567 890</h4>
+        <a href ="Tel:+1234567890">cALL UK: +1 234 567 890</a>
     </footer>
   );
 }

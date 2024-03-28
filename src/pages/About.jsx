@@ -12,20 +12,15 @@ function About() {
       <Hero backgroundImage= {EarthPlanet}>
         <Row>
           <Col size="md-6">
-        <h1> Andreea (Lita) Malaiasi</h1>
+        <h1> Andreea Malaiasi</h1>
         <h2> Developing is also learnig for makeing ideeas a reality</h2>
+        <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a></span>
+        <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita">GitHub</a></span>
         </Col>
         <Col size="md-4">
-        <img src={Avatar} alt="Lita Andreea Malaiasi" style= {{ width: 212, marginTop: 158 }}/>
+        <img src={Avatar} alt="Andreea (Lita) Malaiasi" style= {{ width: 212, marginTop: 158 }}/>
         </Col>
-        <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-            <h3>Skills practicing: HTML, CSS, JavaScript(Bootstrap, NodeJS, JQuery, React)</h3>
-          </Col>
-        </Row>
-
-        </Container>
+       
         </Row>
       </Hero>``
   
