@@ -2,37 +2,37 @@
         "name": "Bootstrap-Portfolio",
         "URL": "https://andreea-lita.github.io/Bootstrap-Portfolio/",
         "githubURL": "https://github.com/Andreea-Lita/Bootstrap-Portfolio",
-        "image": "../components/images/bootstrap-portfolio-toppage.png"
+        "image": "../../components/images/bootstrap-portfolio-toppage.png"
     }, {
         "name": "Console-Finances",
         "URL": ": https://andreea-lita.github.io/Console-Finances/",
         "githubURL": "https://github.com/Andreea-Lita/Console-Finances",
-        "image": "../components/images/financial_info_calcul_display_results"
+        "image": "../components/images/financial_info_calcul_display_results.png"
     }, {
         "name": " Unique-password-generator",
         "URL": " https://andreea-lita.github.io/Unique-password-generator/",
         "githubURL": "https://github.com/Andreea-Lita/Unique-password-generator",
-        "image": "../components/images/example_of_password_gnerated"
+        "image": "../components/images/example_of_password_gnerated.png"
     }, {
         "name": "team-profile-generator",
-        "URL": " https://andreea-lita.github.io/Unique-password-generator/",
-        "githubURL": "https://github.com/Andreea-Lita/Unique-password-generator",
-        "image": "../components/images/example_of_password_gnerated"
+
+        "githubURL": "https://github.com/Andreea-Lita/team-profile-generator",
+        "image": "../components/images/team_html_generated.png"
     }, {
         "name": "Daily-Work-Planner-App",
-        "URL": " https://andreea-lita.github.io/Unique-password-generator/",
-        "githubURL": "https://github.com/Andreea-Lita/Unique-password-generator",
-        "image": "../components/images/example_of_password_gnerated"
+        "URL": " https://andreea-lita.github.io/Daily-Work-Planner-App/",
+        "githubURL": "https://github.com/Andreea-Lita/Daily-Work-Planner-App",
+        "image": "../components/images/enjoy_activities_calendard.png"
     }, {
         "name": "README.md-generator",
-        "URL": " https://andreea-lita.github.io/Unique-password-generator/",
-        "githubURL": "https://github.com/Andreea-Lita/Unique-password-generator",
-        "image": "../components/images/example_of_password_gnerated"
+
+        "githubURL": "https://github.com/Andreea-Lita/README.md-generator",
+        "image": "../components/images/"
     },
     {
         "name": "Quiz-coding-with-timer",
-        "URL": " https://andreea-lita.github.io/Unique-password-generator/",
-        "githubURL": "https://github.com/Andreea-Lita/Unique-password-generator",
-        "image": "../components/images/example_of_password_gnerated"
+        "URL": " https://andreea-lita.github.io/Quiz-coding-with-timer/",
+        "githubURL": "https://github.com/Andreea-Lita/Quiz-coding-with-timer",
+        "image": "../components/images/src/components/Images/quiz_question _JS.png"
     }
 ]

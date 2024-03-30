@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './style.css'
 import Container from '../Container';
 import Row from '../Row';
 import Col from '../Col';
@@ -9,26 +9,31 @@ function Contact() {
   return (
     <div style={{ marginTop: 30, marginLeft: 200}}>
       
-        <h1></h1>
-        <h2></h2>
-        <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a></span>
+        {/* <h1></h1>
+        <h2></h2> */}
         <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita">GitHub</a></span>
+        <br />
+        <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a></span>
+        <br />
+        <span class="badge badge-pill badge-secondary"><a href="https://mail.google.com/">myemail</a></span>
         {/* <a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a>
         <br />
         <a href="https://github.com/Andreea-Lita">GitHub</a>*/}
         <br />
-        <a href="https://mail.google.com/">myemail</a> 
-        <h4>Tel: </h4>
-        <h2>I am a person who likes coding, and mostly coding becoming eficcient for real life!</h2>
-        <Col size="md-4">
-        <img src={Avatar} alt="close avatar" style= {{ width: 212, marginTop: 158 }}/>
-        </Col>
+        {/* <a href="https://mail.google.com/">myemail</a>  */}
+        {/* <p>Tel: </p> */}
+        
         {/* <Container style={{ marginTop: 30 }}> */}
-      <Container style={{ marginTop: 30 }}>
+      <Container style={{ marginTop: 90 }}>
         <Row>
-          <Col size="md-12">
-            <h2> I recently started to develop websites projects!</h2>
+          <Col size="md-8">
+          <h4>I am a person who likes coding, and mostly coding becoming eficcient for real life! I’ve recently embarked on a journey of web development, creating projects that bring ideas to life!</h4>
+
+            <h4></h4>
           </Col>
+          <Col size="md-4">
+        <img src={Avatar} alt="close avatar" style= {{ width: 212, marginTop: 15 }}/>
+        </Col>
         </Row>
         <Row>
           <Col size="md-12">

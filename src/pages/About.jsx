@@ -22,7 +22,7 @@ function About() {
         </Col>
        
         </Row>
-      </Hero>``
+      </Hero>
   
     </div>
   );
