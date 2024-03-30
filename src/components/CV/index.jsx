@@ -10,7 +10,7 @@ function CV() {
     <div className="cv">
       {/* <p>Click the down button called "Open CV" to view CV:</p> */}
        <button onClick={openCv}>Click this to Open CV</button>
-      {/* <a href={myCv} target="_blank">Open PDF</a> */}
+      <a href={myCv} target="_blank">Open PDF</a>
     </div>
   );
 }

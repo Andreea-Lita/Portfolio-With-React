@@ -5,6 +5,7 @@ import Row from '../components/Row';
 import Col from '../components/Col';
 import EarthPlanet from '../components/Images/shot.jpg';
 import Avatar from '../components/Images/Andreea.jpg';
+import './style.css'
 
 function About() {
   return (
@@ -20,10 +21,13 @@ function About() {
         <Col size="md-4">
         <img src={Avatar} alt="Andreea (Lita) Malaiasi" style= {{ width: 212, marginTop: 158 }}/>
         </Col>
-       
         </Row>
       </Hero>
-  
+  <div className='otherInfo'>
+    <Container>
+      <p>Practicing web development on my portfolio!</p>
+    </Container>
+  </div>
     </div>
   );
 }
