@@ -7,8 +7,19 @@ body,
 #root,
 #root>div,
 div[data-reactroot] {
-    height: 96%;
+    height: 100%;
     padding: 0;
     margin: 0;
-    background-color: rgb(43, 57, 52);
+    background-color: rgb(183, 138, 242);
+    /* background-image: url('../src/components/Images/backg.jpg');
+    background-size: cover;
+    height: '100vh' */
+}
+
+.otherInfo {
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 40px;
 }

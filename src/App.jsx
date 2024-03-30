@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Discover from './pages/Discover';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -22,7 +21,6 @@ function App() {
             <Route path="/" element={<About/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/contact" element={<Contact/>} />
-            {/* <Route path="/discover" element={<Discover/>} /> */}
             <Route path="/cV" element={<CV/>} />
             <Route path="/projects" element={<Projects/>} />
             <Route path="/skills" element={<Skills/>} />
