@@ -4,7 +4,8 @@ import Container from '../Container';
 import Row from '../Row';
 import Col from '../Col';
 import EarthPlanet from '../Images/shot.jpg';
-import Avatar from '../Images/2151100212.jpg'
+// import Avatar from '../Images/2151100212.jpg'
+
 function Contact() {
   return (
     <div style={{ marginTop: 30, marginLeft: 200}}>

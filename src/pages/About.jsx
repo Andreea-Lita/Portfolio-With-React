@@ -5,7 +5,14 @@ import Row from '../components/Row';
 import Col from '../components/Col';
 import EarthPlanet from '../components/Images/shot.jpg';
 import Avatar from '../components/Images/Andreea.jpg';
+import { FaHtml5, FaCss3, FaBootstrap, FaGithub, FaReact, FaNodeJs } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { DiJqueryLogo } from "react-icons/di";
+import { LuFileJson } from "react-icons/lu";
+import { TbApi } from "react-icons/tb";
+import { SiCodemirror } from "react-icons/si";
 import './style.css'
+import { right } from '@popperjs/core';
 
 function About() {
   return (
@@ -26,6 +33,17 @@ function About() {
   <div className='otherInfo'>
     <Container>
       <p>Practicing web development on my portfolio!</p>
+      <FaHtml5 color='darkcyan' size='21px' style={{marginRight:'10px'}} />
+      <FaCss3 color='darkred' size='21px' style={{marginRight:'10px'}}/>
+      <IoLogoJavascript color='purple' size='21px' style={{marginRight:'10px'}} />
+      <FaBootstrap color='gray' size='21px' style={{marginRight:'10px'}} />
+      < FaGithub color='black' size='21px' style={{marginRight:'10px'}} />
+      <DiJqueryLogo color='red' size='21px' style={{marginRight:'10px'}} />
+      <LuFileJson color='darkgreen' size='21px' style={{marginRight:'10px'}} />
+      < FaReact color='yellow' size='21px' style={{marginRight:'10px'}} />
+      <TbApi color='blue' size='21px' style={{marginRight:'10px'}} />
+      <FaNodeJs color='pink' size='21px' style={{marginRight:'10px'}} />
+      <SiCodemirror color='orange' size='21px' style={{marginRight:'10px'}} />
     </Container>
   </div>
     </div>
