@@ -4,7 +4,6 @@ import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
-// import ProjectGallery from './components/ProjectGallery';
 import CV from './components/CV';
 import Contact from './components/Contact';
 import Projects from './components/ProjectsGallery';
