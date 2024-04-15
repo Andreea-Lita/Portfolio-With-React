@@ -30,7 +30,7 @@ function Contact() {
           <Col size="md-8">
           <h4>I am a person who likes coding, and mostly coding becoming eficcient for real life! I’ve recently embarked on a journey of web development, creating projects that bring ideas to life!</h4>
 
-            <h4></h4>
+            <h4>Developing is also learnig for makeing ideeas a reality</h4>
           </Col>
           <Col size="md-4">
         <img src={Avatar} alt="close avatar" style= {{ width: 212, marginTop: 15 }}/>

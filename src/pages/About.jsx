@@ -21,7 +21,7 @@ function About() {
         <Row>
           <Col size="md-6">
         <h1> Andreea Malaiasi</h1>
-        <h2> Developing is also learnig for makeing ideeas a reality</h2>
+        <h2></h2>
         <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a></span>
         <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita">GitHub</a></span>
         </Col>

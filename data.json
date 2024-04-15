@@ -2,37 +2,45 @@
         "name": "Bootstrap-Portfolio",
         "URL": "https://andreea-lita.github.io/Bootstrap-Portfolio/",
         "githubURL": "https://github.com/Andreea-Lita/Bootstrap-Portfolio",
-        "image": "../../components/images/bootstrap-portfolio-toppage.png"
+        "image": "./public/bootstrap-portfolio-toppage.png"
     }, {
         "name": "Console-Finances",
         "URL": ": https://andreea-lita.github.io/Console-Finances/",
         "githubURL": "https://github.com/Andreea-Lita/Console-Finances",
-        "image": "../components/images/financial_info_calcul_display_results.png"
+        "image": "./public/financial_info_calcul_display_results.png"
     }, {
-        "name": " Unique-password-generator",
-        "URL": " https://andreea-lita.github.io/Unique-password-generator/",
+        "name": "Unique-password-generator",
+        "URL": "https://andreea-lita.github.io/Unique-password-generator/",
         "githubURL": "https://github.com/Andreea-Lita/Unique-password-generator",
-        "image": "../components/images/example_of_password_gnerated.png"
+        "image": "./public/example_of_password_gnerated.png"
     }, {
         "name": "team-profile-generator",
-
         "githubURL": "https://github.com/Andreea-Lita/team-profile-generator",
-        "image": "../components/images/team_html_generated.png"
+        "image": "./public/team_html_generated.png"
     }, {
         "name": "Daily-Work-Planner-App",
         "URL": " https://andreea-lita.github.io/Daily-Work-Planner-App/",
         "githubURL": "https://github.com/Andreea-Lita/Daily-Work-Planner-App",
-        "image": "../components/images/enjoy_activities_calendard.png"
+        "image": "./public/enjoy_activities_calendar.png"
     }, {
         "name": "README.md-generator",
-
         "githubURL": "https://github.com/Andreea-Lita/README.md-generator",
-        "image": "../components/images/"
+        "image": "./public/example_readme.md__generated_file_empty.png"
     },
     {
         "name": "Quiz-coding-with-timer",
-        "URL": " https://andreea-lita.github.io/Quiz-coding-with-timer/",
+        "URL": "https://andreea-lita.github.io/Quiz-coding-with-timer/",
         "githubURL": "https://github.com/Andreea-Lita/Quiz-coding-with-timer",
-        "image": "../components/images/src/components/Images/quiz_question _JS.png"
+        "image": "./public/quiz_question _JS.png"
+    }, {
+        "name": "Movie Mania Selector",
+        "URL": "https://andreea-lita.github.io/Movie-Picker/",
+        "githubURL": "https://github.com/Andreea-Lita/Movie-Picker",
+        "image": "./public/movie_mania_sel_search_feature_also_buttons_save_streaming.png"
+    }, {
+        "name": "CODECRAFT",
+        "URL": "https://main--codecraftapp.netlify.app/#/",
+        "githubURL": "https://github.com/Andreea-Lita/revision-app",
+        "image": "./public/code_craft_app_interactive_code_block.png"
     }
 ]
