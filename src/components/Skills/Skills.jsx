@@ -6,7 +6,7 @@ import Container from '../Container';
 function Skills(){
     return(
         
-    <div className="row" size="md-12" style={{backgroundColor: 'darkcyan'}} >
+    <div className="row" size="md-12" >
       <div className="col" size="md-4">
             <h3>Programming Languages:</h3>
             <ul>

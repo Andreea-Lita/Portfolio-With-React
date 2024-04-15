@@ -32,7 +32,7 @@ function Projects() {
             <a href={item.githubURL}>GitHub Link</a>
           </li>
           <li>
-            <img src={item.image} alt={item.name} style={{width:240}}/>
+            <img src={item.image} alt={item.name} style={{width:290}}/>
           </li>
         </ul>
         </div>

@@ -4,7 +4,7 @@ import Container from '../Container';
 import Row from '../Row';
 import Col from '../Col';
 import EarthPlanet from '../Images/shot.jpg';
-import Avatar from '../Images/2151100212.jpg'
+import Avatar from '../Images/avatar.jpg'
 
 function Contact() {
   return (

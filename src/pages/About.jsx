@@ -26,7 +26,7 @@ function About() {
         <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita">GitHub</a></span>
         </Col>
         <Col size="md-4">
-        <img src={Avatar} alt="Andreea (Lita) Malaiasi" style= {{ width: 212, marginTop: 158 }}/>
+        <img src={Avatar} alt="Andreea (Lita) Malaiasi" style= {{ width: 212, marginTop: 8 }}/>
         </Col>
         </Row>
       </Hero>
