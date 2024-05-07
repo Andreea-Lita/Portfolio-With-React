@@ -19,8 +19,10 @@ function Projects() {
   }, []);
   
   return (
+    <section className="starting">
       <div>
         <Container>
+        <br /> {/* This adds a line break after each item */}
   {data.map((item, index) => (
           <div key={index}>
   <h2>{item.name}</h2>
@@ -35,10 +37,12 @@ function Projects() {
             <img src={item.image} alt={item.name} style={{width:290}}/>
           </li>
         </ul>
+        <br /> {/* This adds a line break after each item */}
         </div>
       ))}
       </Container>
     </div>
+    </section>
   );
   }
   

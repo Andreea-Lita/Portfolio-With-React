@@ -12,3 +12,10 @@
     padding: 3px;
     background: #B8B8B8;
 }
+
+.starting {
+    /* background-color: aquamarine; */
+    background-image: url('../src/components/Images/pexels-7233107.jpg');
+    width: 400px;
+    margin-top: 95px;
+}
