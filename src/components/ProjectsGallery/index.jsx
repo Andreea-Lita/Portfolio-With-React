@@ -33,9 +33,12 @@ function Projects() {
           <li>
             <a href={item.githubURL}>GitHub Link</a>
           </li>
-          <li>
-            <img src={item.image} alt={item.name} style={{width:290}}/>
-          </li>
+      
+            <img src={item.image} alt={item.name} style={{width:290, marginTop:10}}/>
+      
+          <h6 style={{margin:3}}>
+          {item.note}
+          </h6>
         </ul>
         <br /> {/* This adds a line break after each item */}
         </div>

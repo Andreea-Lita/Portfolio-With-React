@@ -2,7 +2,9 @@
         "name": "Bootstrap-Portfolio",
         "URL": "https://andreea-lita.github.io/Bootstrap-Portfolio/",
         "githubURL": "https://github.com/Andreea-Lita/Bootstrap-Portfolio",
-        "image": "./bootstrap-portfolio-toppage.png"
+        "image": "./bootstrap-portfolio-toppage.png",
+        "note": "practicing bootstrap"
+
     }, {
         "name": "Console-Finances",
         "URL": ": https://andreea-lita.github.io/Console-Finances/",
