@@ -19,3 +19,15 @@
     width: 400px;
     margin-top: 95px;
 }
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}

@@ -6,47 +6,35 @@ import portfCardData from "../../../data.json"
 function Projects() {
   const [data, setData] = useState([]);
   
-    // Store data to localStorage
+  // Store data to localStorage
   useEffect(() => {
-      localStorage.setItem('portfCardData', JSON.stringify(portfCardData));
+    localStorage.setItem('portfCardData', JSON.stringify(portfCardData));
   }, []);
   
-    // Retrieve data from localStorage
+  // Retrieve data from localStorage
   useEffect(() => {
-      const retrievedData = localStorage.getItem('portfCardData');
-      const parsedData = JSON.parse(retrievedData);
-      setData(parsedData);
+    const retrievedData = localStorage.getItem('portfCardData');
+    const parsedData = JSON.parse(retrievedData);
+    setData(parsedData);
   }, []);
-  
+
   return (
     <section className="starting">
-      <div>
-        <Container>
-        <br /> {/* This adds a line break after each item */}
-  {data.map((item, index) => (
-          <div key={index}>
-  <h2>{item.name}</h2>
-        <ul>
-          <li>
-            <a href={item.URL}>Project Link</a>
-          </li>
-          <li>
-            <a href={item.githubURL}>GitHub Link</a>
-          </li>
-      
-            <img src={item.image} alt={item.name} style={{width:290, marginTop:10}}/>
-      
-          <h6 style={{margin:3}}>
-          {item.note}
-          </h6>
-        </ul>
-        <br /> {/* This adds a line break after each item */}
+      <Container>
+        <div className="project-grid">
+          {data.map((item, index) => (
+            <div key={index} className="project">
+              <h2>{item.name}</h2>
+              <a href={item.URL}>Project Link</a>
+              <a href={item.githubURL}>GitHub Link</a>
+              <img src={item.image} alt={item.name} style={{width:290}}/>
+              <p>{item.note}</p>
+            </div>
+          ))}
         </div>
-      ))}
       </Container>
-    </div>
     </section>
   );
-  }
-  
-  export default Projects;
+}
+
+export default Projects;
