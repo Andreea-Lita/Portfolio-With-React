@@ -15,14 +15,13 @@
 
 .starting {
     /* background-color: aquamarine; */
-    background-image: url('../src/components/Images/pexels-7233107.jpg');
     width: 400px;
-    margin-top: 95px;
+    margin-top: 55px;
 }
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
     gap: 20px;
 }
 
@@ -30,4 +29,9 @@
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    background-image: url('../src/components/Images/pexels-7233107.jpg');
+}
+
+a {
+    padding: 15px;
 }

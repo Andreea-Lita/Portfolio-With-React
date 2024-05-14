@@ -1,4 +1,5 @@
-import Container from "../Container";
+// import Container from "../Container";
+import { Container, Row, Col } from 'react-bootstrap';
 import "./style.css";
 import React, { useEffect, useState } from 'react';
 import portfCardData from "../../../data.json"
@@ -20,18 +21,20 @@ function Projects() {
 
   return (
     <section className="starting">
-      <Container>
+      <Container >
+        <Row>
         <div className="project-grid">
           {data.map((item, index) => (
             <div key={index} className="project">
-              <h2>{item.name}</h2>
+              <h4>{item.name}</h4>
               <a href={item.URL}>Project Link</a>
               <a href={item.githubURL}>GitHub Link</a>
-              <img src={item.image} alt={item.name} style={{width:290}}/>
-              <p>{item.note}</p>
+              <img src={item.image} alt={item.name} style={{width:290, margin: 10}}/>
+              <h6>{item.note}</h6>
             </div>
           ))}
         </div>
+        </Row>
       </Container>
     </section>
   );
