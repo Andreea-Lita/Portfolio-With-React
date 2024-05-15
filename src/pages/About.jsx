@@ -11,8 +11,10 @@ import { DiJqueryLogo } from "react-icons/di";
 import { LuFileJson } from "react-icons/lu";
 import { TbApi } from "react-icons/tb";
 import { SiCodemirror } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa6";
 import './style.css'
-import { right } from '@popperjs/core';
+
+// import { right } from '@popperjs/core';
 
 function About() {
   return (
@@ -22,8 +24,8 @@ function About() {
           <Col size="md-6">
         <h1> Andreea Malaiasi</h1>
         <h2></h2>
-        <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a></span>
-        <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita">GitHub</a></span>
+        <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235" style={{ color: 'white' }}><FaLinkedin color='white' size='14px' style={{marginRight:'5px'}} />Linkedin</a></span>
+        <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita" style={{ color: 'white'}}>< FaGithub color='white' size='14px' style={{marginRight:'5px'}} />GitHub</a></span>
         </Col>
         <Col size="md-4">
         <img src={Avatar} alt="Andreea (Lita) Malaiasi" style= {{ width: 212, marginTop: 8 }}/>
@@ -32,7 +34,7 @@ function About() {
       </Hero>
   <div className='otherInfo'>
     <Container>
-      <p>Practicing web development on my portfolio!</p>
+      <h5>Practicing web development on my portfolio!</h5>
       <FaHtml5 color='darkcyan' size='21px' style={{marginRight:'10px'}} />
       <FaCss3 color='darkred' size='21px' style={{marginRight:'10px'}}/>
       <IoLogoJavascript color='purple' size='21px' style={{marginRight:'10px'}} />

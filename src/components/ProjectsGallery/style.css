@@ -30,7 +30,8 @@
     padding: 20px;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     /* background-image: url('../public/pexels-7233107.jpg'); */
-    background-image: url('/public/pexels-7233107.jpg')
+    /* background-image: url('/public/pexels-7233107.jpg') */
+    background-color: rgb(10, 234, 152);
 }
 
 a {

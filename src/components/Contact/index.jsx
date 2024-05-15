@@ -7,29 +7,31 @@ import Avatar from '../Images/avatar0.jpg'
 
 function Contact() {
   return (
-    <div style={{ marginTop: 30, marginLeft: 200}}>
-        <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita">GitHub</a></span>
-        <br />
-        <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a></span>
-        <br />
-        <span class="badge badge-pill badge-secondary"><a href="https://mail.google.com/">myemail</a></span>
-      
+    <div style={{ marginTop: 30, marginLeft: 75 }}>
+
       <Container style={{ marginTop: 90 }}>
         <Row>
           <Col size="md-8">
-          <h4>I am a person who likes coding, and mostly coding becoming eficcient for real life! I’ve recently embarked on a journey of web development, creating projects that bring ideas to life!</h4>
-
-            <h4>Developing is also learnig for makeing ideeas a reality</h4>
+            <h5>I am a person who likes coding, and mostly coding becoming eficcient for real life! I’ve recently embarked on a journey of web development, creating projects that bring ideas to life!</h5>
+            <h5>With every line of code, I try not just building applications, but constructing bridges that connect imagination to reality, transforming the abstract into the tangible.</h5>
+              <h5>Developing is also learnig for makeing ideeas a reality!</h5>
+            <br />
+            <span class="badge badge-pill badge-secondary"><a href="https://github.com/Andreea-Lita" style={{ color: 'navy' }}>GitHub</a></span>
+            <br />
+            <span class="badge badge-pill badge-primary"><a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235" style={{ color: 'navy' }}>Linkedin</a></span>
+            <br />
+            <span class="badge badge-pill badge-secondary"><a href="https://mail.google.com/" style={{ color: 'navy' }}>myemail</a></span>
+            <br />
           </Col>
           <Col size="md-4">
-        <img src={Avatar} alt="close avatar" style= {{ width: 112, marginTop: 15 }}/>
-        </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-         
+            <img src={Avatar} alt="close avatar" style={{ width: 175, marginTop: 15 }} />
           </Col>
         </Row>
+        {/* <Row>
+          <Col size="md-12">
+          
+          </Col>
+        </Row> */}
       </Container>
     </div>
   );

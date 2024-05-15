@@ -3,3 +3,8 @@ a {
     text-decoration: none;
     font-size: medium;
 }
+
+h5 {
+    color: #1e1816;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
