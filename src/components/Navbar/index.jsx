@@ -30,7 +30,7 @@ function Navbar() {
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-               More about me & Contact 
+              More about me
               </NavLink>
             </li>
             <li className="nav-item">
