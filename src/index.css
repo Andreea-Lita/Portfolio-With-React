@@ -11,7 +11,7 @@ div[data-reactroot] {
     padding: 0;
     margin: 0;
     background-color: rgb(165, 82, 52);
-    /* background-image: url('../src/components/Images/pexels-7233107.jpg'); */
+    /* background-image: url('../src/components/Images/pexels-7233107.jpg');  */
     background-size: cover;
     height: '100vh';
 }

@@ -1,4 +1,3 @@
-// import Container from "../Container";
 import { Container, Row, Col } from 'react-bootstrap';
 import "./style.css";
 import React, { useEffect, useState } from 'react';
@@ -7,12 +6,10 @@ import portfCardData from "../../../data.json"
 function Projects() {
   const [data, setData] = useState([]);
   
-  // Store data to localStorage
   useEffect(() => {
     localStorage.setItem('portfCardData', JSON.stringify(portfCardData));
   }, []);
-  
-  // Retrieve data from localStorage
+
   useEffect(() => {
     const retrievedData = localStorage.getItem('portfCardData');
     const parsedData = JSON.parse(retrievedData);
