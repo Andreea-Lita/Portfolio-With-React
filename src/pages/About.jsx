@@ -8,7 +8,8 @@ import Avatar from '../components/Images/Andreea.jpg';
 import { FaHtml5, FaCss3, FaBootstrap, FaGithub, FaReact, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiJqueryLogo } from "react-icons/di";
-import { LuFileJson } from "react-icons/lu";
+// import { LuFileJson } from "react-icons/lu";
+import { TbJson } from "react-icons/tb";
 import { TbApi } from "react-icons/tb";
 import { SiCodemirror } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa6";
@@ -42,7 +43,7 @@ function About() {
           <FaBootstrap color='gray' size='21px' style={{ marginRight: '10px' }} />
           < FaGithub color='black' size='21px' style={{ marginRight: '10px' }} />
           <DiJqueryLogo color='red' size='21px' style={{ marginRight: '10px' }} />
-          <LuFileJson color='darkgreen' size='21px' style={{ marginRight: '10px' }} />
+          <TbJson color='darkgreen' size='21px' style={{ marginRight: '10px' }} />
           < FaReact color='yellow' size='21px' style={{ marginRight: '10px' }} />
           <TbApi color='blue' size='21px' style={{ marginRight: '10px' }} />
           <FaNodeJs color='pink' size='21px' style={{ marginRight: '10px' }} />
