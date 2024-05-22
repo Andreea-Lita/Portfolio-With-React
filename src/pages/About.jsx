@@ -48,6 +48,7 @@ function About() {
           <TbApi color='blue' size='21px' style={{ marginRight: '10px' }} />
           <FaNodeJs color='pink' size='21px' style={{ marginRight: '10px' }} />
           <SiCodemirror color='orange' size='21px' style={{ marginRight: '10px' }} />
+    
         </Container>
       </div>
     </div>

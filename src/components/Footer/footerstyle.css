@@ -1,6 +1,6 @@
 .footer {
     min-height: 120px;
-    background: #2e2057;
+    background: #111211;
     position: relative;
 }
 
@@ -9,10 +9,12 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 3px #394478;
+    /* padding: 3px #394478; */
     background: darkcyan;
+    color: darkslategrey;
 }
 
-.footer h4 {
-    color: rgb(59, 44, 6);
-}
+
+/* #sub {
+    color: darkslategrey;
+} */

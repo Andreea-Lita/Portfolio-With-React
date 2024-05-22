@@ -13,9 +13,13 @@ function Contact() {
       <Container style={{ marginTop: 80 }}>
         <Row>
           <Col size="md-8">
+          
             <h5>I am a person who likes coding, and mostly coding becoming eficcient for real life! I’ve recently embarked on a journey of web development, creating projects that bring ideas to life!</h5>
             <h5>With every line of code, I try not just building applications, but constructing bridges that connect imagination to reality, transforming the abstract into the tangible.</h5>
               <h5>Developing is also learnig for makeing ideeas a reality!</h5>
+              <h5>I feel happy that you are reading this content !</h5>
+              <h5>I hope I will develop my skills to be even a more experienced web developer!</h5>
+              <h6>Some thoughts! </h6>
             <br />
           </Col>
           <Col size="md-4">

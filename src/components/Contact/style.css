@@ -4,7 +4,8 @@ a {
     font-size: medium;
 }
 
-h5 {
+h5,
+h6 {
     color: #1e1816;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
