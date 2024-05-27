@@ -1,6 +1,6 @@
 .footer {
     min-height: 120px;
-    background: #111211;
+    background: rgb(101, 99, 99);
     position: relative;
 }
 
@@ -10,8 +10,8 @@
     left: 0;
     right: 0;
     /* padding: 3px #394478; */
-    background: darkcyan;
-    color: darkslategrey;
+    background: grey;
+    color: cyan;
 }
 
 

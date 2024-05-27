@@ -15,7 +15,7 @@
 
 .starting {
     /* background-color: aquamarine; */
-    width: 400px;
+    width: 371px;
     margin-top: 55px;
 }
 
@@ -28,10 +28,10 @@
 .project {
     border: 1px solid #ccc;
     padding: 20px;
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); */
     /* background-image: url('../public/pexels-7233107.jpg'); */
     /* background-image: url('/public/pexels-7233107.jpg') */
-    background-color: rgb(10, 234, 152);
+    background-color: rgba(116, 223, 195, 0.624);
 }
 
 a {
