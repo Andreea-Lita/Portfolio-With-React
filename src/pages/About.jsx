@@ -37,17 +37,17 @@ function About() {
       <div className='otherInfo'>
         <Container>
           <h5>Practicing web development on my portfolio!</h5>
-          <FaHtml5 color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <FaCss3 color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <IoLogoJavascript color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <FaBootstrap color='gray' size='21px' style={{ marginRight: '10px' }} />
-          < FaGithub color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <DiJqueryLogo color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <TbJson color='gray' size='21px' style={{ marginRight: '10px' }} />
-          < FaReact color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <TbApi color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <FaNodeJs color='gray' size='21px' style={{ marginRight: '10px' }} />
-          <SiCodemirror color='gray' size='21px' style={{ marginRight: '10px' }} />
+          <FaHtml5 color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <FaCss3 color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <IoLogoJavascript color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <FaBootstrap color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          < FaGithub color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <DiJqueryLogo color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <TbJson color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          < FaReact color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <TbApi color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <FaNodeJs color='cyan' size='21px' style={{ marginRight: '10px' }} />
+          <SiCodemirror color='cyan' size='21px' style={{ marginRight: '10px' }} />
     
         </Container>
       </div>
