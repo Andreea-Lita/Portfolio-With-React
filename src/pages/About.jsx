@@ -3,12 +3,12 @@ import Hero from '../components/Hero';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
-import LidarCar from '../components/Images/shot.jpg';
+import LidarCar from '../components/Images/my_teleop_car.jpg';
 import Avatar from '../components/Images/Andreea.jpg';
 import { FaHtml5, FaCss3, FaBootstrap, FaGithub, FaReact, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiJqueryLogo } from "react-icons/di";
-// import { LuFileJson } from "react-icons/lu";
+
 import { TbJson } from "react-icons/tb";
 import { TbApi } from "react-icons/tb";
 import { SiCodemirror } from "react-icons/si";

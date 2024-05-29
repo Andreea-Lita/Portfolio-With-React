@@ -5,7 +5,7 @@ import Row from '../Row';
 import Col from '../Col';
 import Avatar from '../Images/avatar.jpg'
 import { FaGithub } from "react-icons/fa";
-
+import trim_from_video_my_car_with_teleoperation_and_map from '../Images/trim_from_video_my_car_with_teleoperation_and_map.mov'
 function Contact() {
   return (
     <div style={{ marginTop: 30, marginLeft: 50 }}>
@@ -21,6 +21,16 @@ function Contact() {
               <h5>I hope I will develop my skills to be even a more experienced web developer!</h5>
               <h6>Some thoughts! </h6>
             <br />
+            <br />
+            <br />
+            <div className='main'>
+        <div className="overlay"></div>
+        <video src={trim_from_video_my_car_with_teleoperation_and_map} autoPlay loop muted />
+        {/* <div className="content">
+            <h1>Welcome</h1>
+            <p>To my site.</p>
+        </div> */}
+    </div>
           </Col>
           <Col size="md-4">
             <img src={Avatar} alt="close avatar" style={{ width: 175, marginTop: 5 }} />
