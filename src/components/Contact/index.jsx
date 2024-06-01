@@ -13,24 +13,28 @@ function Contact() {
       <Container style={{ marginTop: 80 }}>
         <Row>
           <Col size="md-8">
-          
+
             <h5>I am a person who likes coding, and mostly coding becoming eficcient for real life! I’ve recently embarked on a journey of web development, creating projects that bring ideas to life!</h5>
             <h5>With every line of code, I try not just building applications, but constructing bridges that connect imagination to reality, transforming the abstract into the tangible.</h5>
-              <h5>Developing is also learnig for makeing ideeas a reality!</h5>
-              <h5>I feel happy that you are reading this content !</h5>
-              <h5>I hope I will develop my skills to be even a more experienced web developer!</h5>
-              <h6>Some thoughts! </h6>
+            <h5>Developing is also learnig for makeing ideeas a reality!</h5>
+            <h5>I feel happy that you are reading this content !</h5>
+            <h5>I consider myself a web developer!</h5>
+            <h6></h6>
+            <h5>I hope I will develop my skills to be even a more experienced web developer and I also like A. I. and Robotics field as is ilustrated further down in a piece of a individual project for my bachelor degree building a small robot car:</h5>
             <br />
             <br />
             <br />
-            <div className='main'>
-        <div className="overlay"></div>
-        <video src={trim_from_video_my_car_with_teleoperation_and_map} autoPlay loop muted />
-        {/* <div className="content">
+            <div className='video-column'>
+              <div className="overlay">
+                {/* <video src={trim_from_video_my_car_with_teleoperation_and_map} autoPlay loop muted /> */}
+                <video src={trim_from_video_my_car_with_teleoperation_and_map} />
+                {/* <div className="content">
             <h1>Welcome</h1>
-            <p>To my site.</p>
+            <p>To my si
+            te.</p>
         </div> */}
-    </div>
+              </div>
+            </div>
           </Col>
           <Col size="md-4">
             <img src={Avatar} alt="close avatar" style={{ width: 175, marginTop: 5 }} />
@@ -42,3 +46,4 @@ function Contact() {
 }
 
 export default Contact;
+

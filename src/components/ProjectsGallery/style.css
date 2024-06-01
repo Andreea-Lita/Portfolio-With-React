@@ -13,21 +13,21 @@
     background: #B8B8B8;
 }
 
-.starting {
-    /* background-color: aquamarine; */
+
+/* .starting {
     width: 371px;
     margin-top: 55px;
-}
+} */
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 
 .project {
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 10px;
     /* box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); */
     /* background-image: url('../public/pexels-7233107.jpg'); */
     /* background-image: url('/public/pexels-7233107.jpg') */
@@ -35,5 +35,5 @@
 }
 
 a {
-    padding: 15px;
+    padding: 10px;
 }
