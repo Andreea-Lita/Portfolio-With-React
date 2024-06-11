@@ -1,11 +1,12 @@
 import React from 'react';
-import './style.css'
+import './contactstyle.css'
 import Container from '../Container';
 import Row from '../Row';
 import Col from '../Col';
 import Avatar from '../Images/avatar.jpg'
 import { FaGithub } from "react-icons/fa";
-import trim_from_video_my_car_with_teleoperation_and_map from '../Images/trim_from_video_my_car_with_teleoperation_and_map.mov'
+// import trim_from_video_my_car_with_teleoperation_and_map from '../../assests/trim_from_video_my_car_with_teleoperation_and_map.mp4'
+import my_teleop_car from '../Images/my_teleop_car.jpg'
 function Contact() {
   return (
     <div style={{ marginTop: 30, marginLeft: 50 }}>
@@ -24,21 +25,18 @@ function Contact() {
             <br />
             <br />
             <br />
-            <div className='video-column'>
+            {/* <div className='video-column'>
               <div className="overlay">
-                {/* <video src={trim_from_video_my_car_with_teleoperation_and_map} autoPlay loop muted /> */}
-                <video src={trim_from_video_my_car_with_teleoperation_and_map} />
-                {/* <div className="content">
-            <h1>Welcome</h1>
-            <p>To my si
-            te.</p>
-        </div> */}
+                <video src={trim_from_video_my_car_with_teleoperation_and_map} autoPlay loop muted />
               </div>
-            </div>
+            </div> */}
           </Col>
           <Col size="md-4">
             <img src={Avatar} alt="close avatar" style={{ width: 175, marginTop: 5 }} />
           </Col>
+        </Row>
+        <Row>
+          <img id='picture_robot' src={my_teleop_car} alt='my robot car driven with remote control mini pad to make a map'/>
         </Row>
       </Container>
     </div>

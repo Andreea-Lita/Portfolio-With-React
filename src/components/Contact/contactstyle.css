@@ -54,3 +54,9 @@ video {
         order: 2;
     }
 }
+
+#picture_robot {
+    margin-top: -50px;
+    width: 10%;
+    height: 10%;
+}
