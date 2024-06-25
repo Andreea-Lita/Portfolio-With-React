@@ -5,6 +5,7 @@ import Row from '../Row';
 import Col from '../Col';
 import Avatar from '../Images/avatar.jpg'
 import { FaGithub } from "react-icons/fa";
+import ContactForm from './contactfor';
 // import trim_from_video_my_car_with_teleoperation_and_map from '../../assests/trim_from_video_my_car_with_teleoperation_and_map.mp4'
 import my_teleop_car from '../Images/my_teleop_car.jpg'
 function Contact() {
@@ -38,7 +39,11 @@ function Contact() {
         <Row>
           <img id='picture_robot' src={my_teleop_car} alt='my robot car driven with remote control mini pad to make a map'/>
         </Row>
+       
       </Container>
+      <br />
+      <br />
+      <Container> <ContactForm /> {/* Add this line to include the form */}</Container>
     </div>
   );
 }

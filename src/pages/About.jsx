@@ -22,7 +22,7 @@ function About() {
     <div>
       <Hero>
         <div className='overlay'></div>
-        <video id='robot' src={LidarCar} autoPlay loop muted />
+        <video id='robot' src={LidarCar} autoPlay loop muted style={{ opacity: 0.5 }}/>
         <div className='content'>
           <Container size='md-12'>
             <Row>
