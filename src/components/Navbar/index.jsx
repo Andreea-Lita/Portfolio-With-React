@@ -63,6 +63,16 @@ function Navbar() {
                 Skills
               </NavLink>
             </li> 
+            <li className="nav-item">
+              <NavLink
+                to="/projectAgritek"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Project Agritek
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>

@@ -20,8 +20,7 @@ function Projects() {
     // <section className="starting">
             
       <Container>
-          <Row className="project-grid" lg={12} md={12} sm={8}>
-         
+          <Row className="project-grid" lg={12} md={12} sm={8}>      
               {data.map((item, index) => (
                 <Col size key={index}>
                 <div className="project">
@@ -32,11 +31,8 @@ function Projects() {
                   <h6>{item.note}</h6>
                 </div>
                 </Col>
-              ))}
-           
-        
+              ))}     
           </Row>
-     
       </Container>
     
     // </section >

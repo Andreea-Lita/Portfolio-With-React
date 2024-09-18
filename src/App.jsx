@@ -7,7 +7,8 @@ import Wrapper from './components/Wrapper';
 import CV from './components/CV';
 import Contact from './components/Contact';
 import Projects from './components/ProjectsGallery';
-import Skills from './components/Skills/Skills'
+import Skills from './components/Skills/Skills';
+import ProjectAgritek from './components/PtojectAgritek'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/cV" element={<CV/>} />
             <Route path="/projects" element={<Projects/>} />
             <Route path="/skills" element={<Skills/>} />
+            <Route path="/projectAgritek" element={<ProjectAgritek/>} />
             </Routes> 
         </Wrapper>
         <Footer />

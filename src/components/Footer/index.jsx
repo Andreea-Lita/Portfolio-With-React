@@ -4,7 +4,7 @@ import "./footerstyle.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span id="sub"> Portfolio with React 2024</span>
+      <span id="sub">Portfolio with React 2024</span>
       
       <div className="contacts-container">
         <a href="https://www.linkedin.com/in/andreea-malaiasi-bb15aa235">Linkedin</a>
